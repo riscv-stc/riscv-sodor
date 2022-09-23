@@ -34,6 +34,7 @@ case class SodorCoreParams(
   val useAtomicsOnlyForIO: Boolean = false // copied from Rocket
   val useCompressed: Boolean = false
   override val useVector: Boolean = false
+  override val useMatrix: Boolean = false
   val useSCIE: Boolean = false
   val useRVE: Boolean = false
   val mulDiv: Option[MulDivParams] = None
